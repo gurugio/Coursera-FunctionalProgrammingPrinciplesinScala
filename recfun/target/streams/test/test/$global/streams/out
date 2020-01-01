@@ -1,0 +1,782 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for com.novocode.junit.JUnitFramework produced 1 initial tasks for 1 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(recfun.RecFunSuite, sbt.ForkMain$AnnotatedFingerscan@51d04668, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[34mTest run started[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mTest recfun.[33mRecFunSuite[0m.[36mcountChange: sorted CHF[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest recfun.[33mRecFunSuite[0m.[31mcountChange: sorted CHF[0m failed: java.lang.[31mException[0m: test timed out after 10000 milliseconds, took 10.007 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.math.Ordering$Int$.compare(Ordering.scala:364)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.math.Ordering$Int$.compare(Ordering.scala:364)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.math.Ordering.lteq(Ordering.scala:91)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.math.Ordering.lteq$(Ordering.scala:91)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.math.Ordering$Int$.lteq(Ordering.scala:364)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.math.Ordering.min(Ordering.scala:109)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.math.Ordering.min$(Ordering.scala:109)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.math.Ordering$Int$.min(Ordering.scala:364)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.IterableOnceOps.$anonfun$min$1(IterableOnce.scala:937)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.IterableOnceOps$$Lambda$6/27381291.apply(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.IterableOnceOps.reduceLeft(IterableOnce.scala:755)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.IterableOnceOps.reduceLeft$(IterableOnce.scala:741)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.AbstractIterable.reduceLeft(Iterable.scala:904)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.IterableOnceOps.min(IterableOnce.scala:937)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.IterableOnceOps.min$(IterableOnce.scala:934)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.AbstractIterable.min(Iterable.scala:904)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:60)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFunSuite.countChange: sorted CHF([35mRecFunSuite.scala[0m:[33m29[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest recfun.[33mRecFunSuite[0m.[36mcountChange: sorted CHF[0m finished, took 10.06 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest recfun.[33mRecFunSuite[0m.[36mcountChange: unsorted CHF[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest recfun.[33mRecFunSuite[0m.[31mcountChange: unsorted CHF[0m failed: java.lang.[31mException[0m: test timed out after 10000 milliseconds, took 10.01 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.math.Ordering$Int$.compare(Ordering.scala:364)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.math.Ordering$Int$.compare(Ordering.scala:364)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.math.Ordering.lteq(Ordering.scala:91)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.math.Ordering.lteq$(Ordering.scala:91)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.math.Ordering$Int$.lteq(Ordering.scala:364)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.math.Ordering.min(Ordering.scala:109)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.math.Ordering.min$(Ordering.scala:109)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.math.Ordering$Int$.min(Ordering.scala:364)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.IterableOnceOps.$anonfun$min$1(IterableOnce.scala:937)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.IterableOnceOps$$Lambda$6/27381291.apply(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.IterableOnceOps.reduceLeft(IterableOnce.scala:755)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.IterableOnceOps.reduceLeft$(IterableOnce.scala:741)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.AbstractIterable.reduceLeft(Iterable.scala:904)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.IterableOnceOps.min(IterableOnce.scala:937)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.IterableOnceOps.min$(IterableOnce.scala:934)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.AbstractIterable.min(Iterable.scala:904)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:60)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFunSuite.countChange: unsorted CHF([35mRecFunSuite.scala[0m:[33m35[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest recfun.[33mRecFunSuite[0m.[36mcountChange: unsorted CHF[0m finished, took 10.04 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest recfun.[33mRecFunSuite[0m.[36mcountChange: example given in instructions[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest recfun.[33mRecFunSuite[0m.[36mcountChange: example given in instructions[0m finished, took 0.001 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest recfun.[33mRecFunSuite[0m.[36mbalance: counting is not enough[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest recfun.[33mRecFunSuite[0m.[31mbalance: counting is not enough[0m failed: java.lang.[31mStringIndexOutOfBoundsException[0m: String index out of range: 4, took 0.165 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.String.charAt(String.java:658)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$._updown$1(RecFun.scala:38)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.balance(RecFun.scala:47)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFunSuite.balance: counting is not enough([35mRecFunSuite.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest recfun.[33mRecFunSuite[0m.[36mbalance: counting is not enough[0m finished, took 0.166 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest recfun.[33mRecFunSuite[0m.[36mpascal: col=1,row=2[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest recfun.[33mRecFunSuite[0m.[36mpascal: col=1,row=2[0m finished, took 0.001 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest recfun.[33mRecFunSuite[0m.[36mpascal: col=1,row=3[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest recfun.[33mRecFunSuite[0m.[36mpascal: col=1,row=3[0m finished, took 0.001 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest recfun.[33mRecFunSuite[0m.[36mbalance: ':-)' is unbalanced[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest recfun.[33mRecFunSuite[0m.[31mbalance: ':-)' is unbalanced[0m failed: java.lang.[31mStringIndexOutOfBoundsException[0m: String index out of range: 3, took 0.005 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.String.charAt(String.java:658)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$._updown$1(RecFun.scala:38)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.balance(RecFun.scala:47)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFunSuite.balance: ':-)' is unbalanced([35mRecFunSuite.scala[0m:[33m18[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest recfun.[33mRecFunSuite[0m.[36mbalance: ':-)' is unbalanced[0m finished, took 0.009 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest recfun.[33mRecFunSuite[0m.[36mpascal: col=0,row=2[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest recfun.[33mRecFunSuite[0m.[36mpascal: col=0,row=2[0m finished, took 0.016 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest recfun.[33mRecFunSuite[0m.[36mbalance: '(if (zero? x) max (/ 1 x))' is balanced[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest recfun.[33mRecFunSuite[0m.[31mbalance: '(if (zero? x) max (/ 1 x))' is balanced[0m failed: java.lang.[31mStringIndexOutOfBoundsException[0m: String index out of range: 26, took 0.007 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.String.charAt(String.java:658)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$._updown$1(RecFun.scala:38)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.balance(RecFun.scala:47)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFunSuite.balance: '(if (zero? x) max (/ 1 x))' is balanced([35mRecFunSuite.scala[0m:[33m12[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest recfun.[33mRecFunSuite[0m.[36mbalance: '(if (zero? x) max (/ 1 x))' is balanced[0m finished, took 0.01 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest recfun.[33mRecFunSuite[0m.[36mcountChange: no pennies[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest recfun.[33mRecFunSuite[0m.[31mcountChange: no pennies[0m failed: java.lang.[31mException[0m: test timed out after 10000 milliseconds, took 10.005 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:226)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.$anonfun$countChange$1(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$$$Lambda$5/1108832950.apply$mcII$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.runtime.java8.JFunction1$mcII$sp.apply(JFunction1$mcII$sp.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.immutable.List.map(List.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.countChange(RecFun.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFunSuite.countChange: no pennies([35mRecFunSuite.scala[0m:[33m32[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest recfun.[33mRecFunSuite[0m.[36mcountChange: no pennies[0m finished, took 10.012 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest recfun.[33mRecFunSuite[0m.[36mbalance: 'I told him ...' is balanced[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest recfun.[33mRecFunSuite[0m.[31mbalance: 'I told him ...' is balanced[0m failed: java.lang.[31mStringIndexOutOfBoundsException[0m: String index out of range: 64, took 0.069 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.String.charAt(String.java:658)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$._updown$1(RecFun.scala:38)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFun$.balance(RecFun.scala:47)[0m
+[0m[[0m[31merror[0m] [0m[0m    at recfun.RecFunSuite.balance: 'I told him ...' is balanced([35mRecFunSuite.scala[0m:[33m15[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest recfun.[33mRecFunSuite[0m.[36mbalance: 'I told him ...' is balanced[0m finished, took 0.086 sec[0m
+[0m[[0m[0minfo[0m] [0m[0m[34mTest run finished: [0m[31m7 failed[0m[34m, [0m[34m0 ignored[0m[34m, 11 total, 30.484s[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 11 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0mSummary for JUnit not available.[0m
+[0m[[0m[31merror[0m] [0m[0mFailed: Total 11, Failed 7, Errors 0, Passed 4[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	recfun.RecFunSuite[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

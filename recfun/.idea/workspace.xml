@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0767d592-82f6-4eb9-be38-b12f6db1badd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1Ul6rLr6MCrw1tCDKEVqPNWERqd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assignment.sbt" />
+  </component>
+  <component name="RunManager" selected="JUnit.RecFunSuite">
+    <configuration name="RecFunSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="progfun1-recfun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recfun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="recfun" />
+      <option name="MAIN_CLASS_NAME" value="recfun.RecFunSuite" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecFunSuite.balance$colon$u0020$u0027$colon$minus$u0029$u0027$u0020is$u0020unbalanced" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="progfun1-recfun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recfun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="recfun" />
+      <option name="MAIN_CLASS_NAME" value="recfun.RecFunSuite" />
+      <option name="METHOD_NAME" value="balance$colon$u0020$u0027$colon$minus$u0029$u0027$u0020is$u0020unbalanced" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecFunSuite.balance$colon$u0020$u0027$u0028if$u0020$u0028zero$qmark$u0020x$u0029$u0020max$u0020$u0028$div$u00201$u0020x$u0029$u0029$u0027$u0020is$u0020balanced" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="progfun1-recfun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recfun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="recfun" />
+      <option name="MAIN_CLASS_NAME" value="recfun.RecFunSuite" />
+      <option name="METHOD_NAME" value="balance$colon$u0020$u0027$u0028if$u0020$u0028zero$qmark$u0020x$u0029$u0020max$u0020$u0028$div$u00201$u0020x$u0029$u0029$u0027$u0020is$u0020balanced" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecFunSuite.countChange$colon$u0020no$u0020pennies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="progfun1-recfun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recfun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="recfun" />
+      <option name="MAIN_CLASS_NAME" value="recfun.RecFunSuite" />
+      <option name="METHOD_NAME" value="countChange$colon$u0020no$u0020pennies" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecFunSuite.countChange$colon$u0020sorted$u0020CHF" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="progfun1-recfun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recfun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="recfun" />
+      <option name="MAIN_CLASS_NAME" value="recfun.RecFunSuite" />
+      <option name="METHOD_NAME" value="countChange$colon$u0020sorted$u0020CHF" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RecFunSuite" />
+        <item itemvalue="JUnit.RecFunSuite.balance$colon$u0020$u0027$u0028if$u0020$u0028zero$qmark$u0020x$u0029$u0020max$u0020$u0028$div$u00201$u0020x$u0029$u0029$u0027$u0020is$u0020balanced" />
+        <item itemvalue="JUnit.RecFunSuite.balance$colon$u0020$u0027$colon$minus$u0029$u0027$u0020is$u0020unbalanced" />
+        <item itemvalue="JUnit.RecFunSuite.countChange$colon$u0020no$u0020pennies" />
+        <item itemvalue="JUnit.RecFunSuite.countChange$colon$u0020sorted$u0020CHF" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="progfun1-recfun" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="recfun [file:/home/gurugio/fppis/recfun/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="progfun1-recfun-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="9429354276000" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="1861596165" />
+        <entry key="$PROJECT_DIR$/project/MOOCSettings.scala" value="598648594" />
+        <entry key="$PROJECT_DIR$/project/StudentTasks.scala" value="2255003577" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="1396028727" />
+        <entry key="$PROJECT_DIR$/project/buildSettings.sbt" value="2649409897" />
+        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="2662701361" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/IdeaProjects/Example" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../example" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0767d592-82f6-4eb9-be38-b12f6db1badd" name="Default Changelist" comment="" />
+      <created>1575919032628</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575919032628</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1286" height="173" key="GridCell.Tab.0.bottom" timestamp="1576787509527">
+      <screen x="38" y="27" width="1328" height="741" />
+    </state>
+    <state width="1286" height="173" key="GridCell.Tab.0.bottom/38.27.1328.741@38.27.1328.741" timestamp="1576787509527" />
+    <state width="1286" height="173" key="GridCell.Tab.0.center" timestamp="1576787509526">
+      <screen x="38" y="27" width="1328" height="741" />
+    </state>
+    <state width="1286" height="173" key="GridCell.Tab.0.center/38.27.1328.741@38.27.1328.741" timestamp="1576787509526" />
+    <state width="1286" height="173" key="GridCell.Tab.0.left" timestamp="1576787509526">
+      <screen x="38" y="27" width="1328" height="741" />
+    </state>
+    <state width="1286" height="173" key="GridCell.Tab.0.left/38.27.1328.741@38.27.1328.741" timestamp="1576787509526" />
+    <state width="1286" height="173" key="GridCell.Tab.0.right" timestamp="1576787509527">
+      <screen x="38" y="27" width="1328" height="741" />
+    </state>
+    <state width="1286" height="173" key="GridCell.Tab.0.right/38.27.1328.741@38.27.1328.741" timestamp="1576787509527" />
+    <state width="1286" height="218" key="GridCell.Tab.1.bottom" timestamp="1576377008294">
+      <screen x="38" y="27" width="1328" height="741" />
+    </state>
+    <state width="1286" height="218" key="GridCell.Tab.1.bottom/38.27.1328.741@38.27.1328.741" timestamp="1576377008294" />
+    <state width="1286" height="218" key="GridCell.Tab.1.center" timestamp="1576377008294">
+      <screen x="38" y="27" width="1328" height="741" />
+    </state>
+    <state width="1286" height="218" key="GridCell.Tab.1.center/38.27.1328.741@38.27.1328.741" timestamp="1576377008294" />
+    <state width="1286" height="218" key="GridCell.Tab.1.left" timestamp="1576377008293">
+      <screen x="38" y="27" width="1328" height="741" />
+    </state>
+    <state width="1286" height="218" key="GridCell.Tab.1.left/38.27.1328.741@38.27.1328.741" timestamp="1576377008293" />
+    <state width="1286" height="218" key="GridCell.Tab.1.right" timestamp="1576377008294">
+      <screen x="38" y="27" width="1328" height="741" />
+    </state>
+    <state width="1286" height="218" key="GridCell.Tab.1.right/38.27.1328.741@38.27.1328.741" timestamp="1576377008294" />
+    <state x="409" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1576522248773">
+      <screen x="38" y="27" width="1328" height="741" />
+    </state>
+    <state x="409" y="225" key="com.intellij.ide.util.TipDialog/38.27.1328.741@38.27.1328.741" timestamp="1576522248773" />
+  </component>
+</project>

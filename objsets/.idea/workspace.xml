@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="73593290-b83c-46ff-a2a0-5d473b4ea621" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1VExeGOIsjjuwS5L0MwqTjorLBa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="JUnit.TweetSetSuite">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="objsets.Main" />
+      <module name="progfun1-objsets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="objsets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TweetSetSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="progfun1-objsets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="objsets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="objsets" />
+      <option name="MAIN_CLASS_NAME" value="objsets.TweetSetSuite" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TweetSetSuite.descending$colon$u0020set5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="progfun1-objsets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="objsets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="objsets" />
+      <option name="MAIN_CLASS_NAME" value="objsets.TweetSetSuite" />
+      <option name="METHOD_NAME" value="descending$colon$u0020set5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TweetSetSuite.mostRetweeted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="progfun1-objsets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="objsets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="objsets" />
+      <option name="MAIN_CLASS_NAME" value="objsets.TweetSetSuite" />
+      <option name="METHOD_NAME" value="mostRetweeted" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TweetSetSuite" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TweetSetSuite.descending$colon$u0020set5" />
+        <item itemvalue="JUnit.TweetSetSuite.mostRetweeted" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="progfun1-objsets" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="objsets [file:/home/gurugio/fppis/objsets/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="progfun1-objsets-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="9429354276000" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="1371009884" />
+        <entry key="$PROJECT_DIR$/project/MOOCSettings.scala" value="598648594" />
+        <entry key="$PROJECT_DIR$/project/StudentTasks.scala" value="2255003577" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="1396028727" />
+        <entry key="$PROJECT_DIR$/project/buildSettings.sbt" value="2649409897" />
+        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="2662701361" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/IdeaProjects/Example" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../example" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../funsets" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../recfun" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="73593290-b83c-46ff-a2a0-5d473b4ea621" name="Default Changelist" comment="" />
+      <created>1576832148646</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576832148646</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="435" y="155" width="524" height="494" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1576895017201">
+      <screen x="38" y="27" width="1328" height="741" />
+    </state>
+    <state x="435" y="155" width="524" height="494" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/38.27.1328.741@38.27.1328.741" timestamp="1576895017201" />
+    <state width="1286" height="150" key="GridCell.Tab.0.bottom" timestamp="1576895147273">
+      <screen x="38" y="27" width="1328" height="741" />
+    </state>
+    <state width="1286" height="150" key="GridCell.Tab.0.bottom/38.27.1328.741@38.27.1328.741" timestamp="1576895147273" />
+    <state width="1286" height="150" key="GridCell.Tab.0.center" timestamp="1576895147273">
+      <screen x="38" y="27" width="1328" height="741" />
+    </state>
+    <state width="1286" height="150" key="GridCell.Tab.0.center/38.27.1328.741@38.27.1328.741" timestamp="1576895147273" />
+    <state width="1286" height="150" key="GridCell.Tab.0.left" timestamp="1576895147272">
+      <screen x="38" y="27" width="1328" height="741" />
+    </state>
+    <state width="1286" height="150" key="GridCell.Tab.0.left/38.27.1328.741@38.27.1328.741" timestamp="1576895147272" />
+    <state width="1286" height="150" key="GridCell.Tab.0.right" timestamp="1576895147273">
+      <screen x="38" y="27" width="1328" height="741" />
+    </state>
+    <state width="1286" height="150" key="GridCell.Tab.0.right/38.27.1328.741@38.27.1328.741" timestamp="1576895147273" />
+    <state width="1286" height="216" key="GridCell.Tab.1.bottom" timestamp="1576891201314">
+      <screen x="38" y="27" width="1328" height="741" />
+    </state>
+    <state width="1286" height="216" key="GridCell.Tab.1.bottom/38.27.1328.741@38.27.1328.741" timestamp="1576891201314" />
+    <state width="1286" height="216" key="GridCell.Tab.1.center" timestamp="1576891201313">
+      <screen x="38" y="27" width="1328" height="741" />
+    </state>
+    <state width="1286" height="216" key="GridCell.Tab.1.center/38.27.1328.741@38.27.1328.741" timestamp="1576891201313" />
+    <state width="1286" height="216" key="GridCell.Tab.1.left" timestamp="1576891201313">
+      <screen x="38" y="27" width="1328" height="741" />
+    </state>
+    <state width="1286" height="216" key="GridCell.Tab.1.left/38.27.1328.741@38.27.1328.741" timestamp="1576891201313" />
+    <state width="1286" height="216" key="GridCell.Tab.1.right" timestamp="1576891201314">
+      <screen x="38" y="27" width="1328" height="741" />
+    </state>
+    <state width="1286" height="216" key="GridCell.Tab.1.right/38.27.1328.741@38.27.1328.741" timestamp="1576891201314" />
+    <state x="409" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1577141720432">
+      <screen x="38" y="27" width="1328" height="741" />
+    </state>
+    <state x="409" y="225" key="com.intellij.ide.util.TipDialog/38.27.1328.741@38.27.1328.741" timestamp="1577141720432" />
+    <state x="365" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1576892460202">
+      <screen x="38" y="27" width="1328" height="741" />
+    </state>
+    <state x="365" y="89" width="672" height="678" key="search.everywhere.popup/38.27.1328.741@38.27.1328.741" timestamp="1576892460202" />
+  </component>
+</project>
