@@ -1,35 +1,35 @@
-import forcomp.Anagrams.{Occurrences, Word}
+import forcomp.Anagrams.{Occurrences, Sentence, Word, dictionary, wordOccurrences}
+import forcomp.Anagrams._
 
-type Word = String
-type Sentence = List[Word]
-type Occurrences = List[(Char, Int)]
-
-val sample: Map[Int, Set[String]] = Map(1 -> Set("11"), 2 -> Set("22", "222"))
+val exSentence = List("Yes", "Man")
+val exOcc = sentenceOccurrences(exSentence)
+val exOccComb = combinations(exOcc)
 
 
-sample ++ Map(1 -> (sample.getOrElse(1, Set()) ++ Set("1111")))
-
-Set(1,2,3) ++ Set(4,5)
-
-def wordOccurrences(w: Word): Occurrences = {
-  val occMap = w.toLowerCase groupBy ((c: Char) => c) map {
-    case (k, str) => (k, str.length)
-  }
-  occMap.toList.sorted
+def getSentence(occur: Occurrences): List[Word] = {
+  if (occur.isEmpty) Nil
+  else if (dictionaryByOccurrences.exists(_._1 == occur)) dictionaryByOccurrences(occur)
+  else {
+    val occurCombi = combinations(occur)
+    val beforeFold: List[List[Word]] =
+      for (cc <- occurCombi
+           if (dictionaryByOccurrences.exists(_._1 == cc) && !getSentence(subtract(occur, cc)).isEmpty)) yield
+        dictionaryByOccurrences(cc) ::: getSentence(subtract(occur, cc))
+    println(occur + "->" + beforeFold)
+    if (beforeFold.isEmpty) Nil
+    else beforeFold.tail.foldLeft(beforeFold.head)(_ ++ _)
+ }
 }
 
-val dictionary: List[Word] = List("aabb", "bbaa", "abc")
-
-val dictionaryByOccurrences: Map[Occurrences, List[Word]] = {
-  def body(words: List[Word], map: Map[Occurrences, List[Word]]): Map[Occurrences, List[Word]] = {
-    if (words.isEmpty) map
-    else {
-      val occ = wordOccurrences(words.head)
-      body(words.tail, map ++ Map(occ -> (words.head :: map.getOrElse(occ, List()))))
-    }
+def test(sentence: Sentence): List[Sentence] = {
+  if (sentence.isEmpty) Nil
+  else {
+    val occur = sentenceOccurrences(sentence)
+    val occurCombi = combinations(occur)
+    for (combi <- combinations(occur)
+         if (dictionaryByOccurrences.exists(_._1 == combi) && !getSentence(subtract(occur, combi)).isEmpty)) yield
+      dictionaryByOccurrences(combi) ::: getSentence(subtract(occur, combi))
   }
-  body(dictionary, Map())
 }
-println(dictionaryByOccurrences)
 
-
+test(exSentence)
